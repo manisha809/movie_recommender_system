@@ -3,6 +3,10 @@ import streamlit as st
 import pickle
 import requests
 
+import pickle
+import os
+
+
 def fetch_poster(movie_id):
     response=requests.get('https://api.themoviedb.org/3/movie/{}?api_key=04658427095806014a08ab6a1d237388&language=en-US'.format(movie_id))
     data=response.json()
@@ -31,7 +35,7 @@ similarity=pickle.load(open('similarity.pkl','rb'))
 st.title('Movie Recommender system')
 
 selected_movie_name=st.selectbox(
-    'How Would uu eoejn',
+    'SELECT YOUR FAVOURITE MOVIE',
     movies['title'].values)
 
 if st.button('Recommend'):

@@ -1,12 +1,7 @@
 
 # Movie Recommender System
 
-A brief description of what this project does and who it's for
-
-
 ## Appendix
-
-
 
 Created a Streamlit web application to facilitate in-depth
 analysis of the Olympics dataset, providing users with
@@ -20,14 +15,9 @@ exploring Olympic data insights.
 
 ## Demo
 
-Insert gif or link to demo
+![Screenshot (6)](https://github.com/manisha809/movie_recommender_system/assets/74667664/fd2363a9-bded-4906-8097-eafdd1f23bf2)
 
- https://movierecommendersystem-6d6vohnk7sawiepgbwfb2x.streamlit.app/
-## Deployment
 
-To deploy this project run
+ Url : https://movierecommendersystem-6d6vohnk7sawiepgbwfb2x.streamlit.app/
 
-```bash
-  streamlit run app.py
-```
 

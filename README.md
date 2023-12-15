@@ -3,11 +3,12 @@
 
 ## Appendix
 
-Created a Streamlit web application to facilitate in-depth
-analysis of the Olympics dataset, providing users with
-interactive features like dynamic filtering, heatmaps, and
-comparative analytics for exploring historical medal tallies
-and country-wise performance.
+Created a Sreamlit Web app to recommend movie.
+A robust Content-Based Recommeder system using Cosine Similarity
+● Integrated interactive features allowing users to select their favorite movies and receive recommendations.
+● Utilized data from The Movie Database (TMDb) API and a visually appealing display of recommended movies along with
+their posters.
+
 
 ● Deployed the application on the Streamlit server, ensuring
 seamless accessibility and a user-friendly interface for
